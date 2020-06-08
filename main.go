@@ -16,5 +16,5 @@ func main() {
 }
 
 func hello(res http.ResponseWriter, req *http.Request) {
-    fmt.Fprintln(res, "Shipa apps on EKS")
+    fmt.Fprintln(res, "Shipa apps")
 }
